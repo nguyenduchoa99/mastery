@@ -1,0 +1,619 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+.header {
+    margin: auto;
+    width: 80%;
+    padding-bottom: 20px;
+}
+
+.header .logo .text {
+    font-size: 40px;
+    font-weight: 700;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+}
+
+.header .logo .text i {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    background-color: rgba(0, 33, 70, 1);
+    color: #e2b608;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.header .navbar {
+    margin-top: 10px;
+    padding-left: 25px;
+}
+
+.header .navbar a {
+    margin-right: 30px;
+    font-size: 25px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.header .navbar a:hover {
+    color: #ff0000;
+}
+
+.carousel {
+    height: 800px;
+    background-image: url(../img/2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.welcome {
+    padding: 80px 0;
+    margin: auto;
+    width: 80%;
+}
+
+.welcome .welleft,
+.welcome .welright {
+    float: left;
+    width: 50%;
+    padding: 20px 60px;
+}
+
+.clear {
+    clear: both;
+}
+
+.welcome .welleft h1 {
+    color: #000000;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.welcome .welleft p {
+    color: #8d8d8d;
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.welcome .welleft a {
+    text-decoration: none;
+    padding: 10px 50px;
+    background-color: #fdc800;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #002146;
+}
+
+.welcome .welleft a:hover {
+    color: #fdc800;
+    background-color: #002146;
+}
+
+.welcome .welright img {
+    width: 100%;
+    border-radius: 0 5px 5px 0;
+}
+
+.since {
+    padding: 80px 0;
+    background-color: #f6f6f6;
+    text-align: center;
+}
+
+.since .all {
+    margin: auto;
+    width: 80%;
+}
+
+.since .all .number {
+    float: left;
+    width: 25%;
+}
+
+.since .all .number .numberleft {
+    float: left;
+    width: 40%;
+}
+
+.since .all .number .numberright {
+    float: left;
+    width: 60%;
+}
+
+.since .all .number .numberleft {
+    font-size: 40px;
+    text-align: right;
+}
+
+.since .all .number .numberright {
+    font-size: 20px;
+    padding: 15px;
+    text-align: left;
+}
+
+.product {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.product .content {
+    margin: auto;
+    width: 80%;
+}
+
+.product .content .row {
+    float: left;
+    width: 25%;
+    color: #ffffff;
+}
+
+.product .content .row .item {
+    margin: 15px;
+    padding: 40px 30px;
+    background-color: #002146;
+    width: 90%;
+    border-radius: 5px;
+}
+
+.product .content .row .item i {
+    font-size: 40px;
+    padding: 10px 0 15px 0;
+}
+
+.product .content .row .item p {
+    font-size: 20px;
+}
+
+
+.news {
+    padding: 80px 0;
+    background-color: #f6f6f6;
+}
+
+.news .show {
+    margin: auto;
+    width: 80%;
+}
+
+.news .show .post,
+.news .show .event {
+    float: left;
+    width: 50%;
+}
+
+.news .show .post .info .infoleft1 {
+    float: left;
+    width: 30%;
+}
+
+.news .show .post .info .infoleft1 img {
+    width: 100%;
+    border-radius: 10%;
+    padding: 5px 15px;
+}
+
+.news .show .post .info .inforight1 {
+    float: left;
+    width: 70%;
+}
+
+.news .show .post .info .infoleft2 {
+    float: left;
+    width: 30%;
+}
+
+.news .show .post .info .infoleft2 img {
+    width: 100%;
+    border-radius: 10%;
+    padding: 5px 15px;
+}
+
+.news .show .post .info .inforight2 {
+    float: left;
+    width: 70%;
+}
+
+.news .show .post .info .infoleft3 {
+    float: left;
+    width: 30%;
+}
+
+.news .show .post .info .infoleft3 img {
+    width: 100%;
+    padding: 5px 15px;
+    border-radius: 10%;
+}
+
+.news .show .post .info .inforight3 {
+    float: left;
+    width: 70%;
+}
+
+.news .show .post .info {
+    background-color: #ffffff;
+    padding: 15px 0;
+}
+
+.news .show .post h1 {
+    padding-bottom: 40px;
+    font-size: 40px;
+    color: #000000;
+}
+
+.news .show .post {
+    padding: 0 30px;
+}
+
+
+.news .show .post .info .inforight1 h3 {
+    color: #000000;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.news .show .post .info .inforight1 span {
+    color: #949494;
+    font-size: 18px;
+}
+
+.news .show .post .info .inforight1 p {
+    color: #585858;
+    padding-top: 10px;
+}
+
+.news .show .post .info .inforight2 h3 {
+    color: #000000;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.news .show .post .info .inforight2 span {
+    color: #949494;
+    font-size: 18px;
+}
+
+.news .show .post .info .inforight2 p {
+    color: #585858;
+    padding-top: 10px;
+}
+
+.news .show .post .info .inforight3 h3 {
+    color: #000000;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.news .show .post .info .inforight3 span {
+    color: #949494;
+    font-size: 18px;
+}
+
+.news .show .post .info .inforight3 p {
+    color: #585858;
+    padding-top: 10px;
+}
+
+.news .show .post .dash {
+    width: 90%;
+    margin-left: 30px;
+    border-style: solid;
+    color: #eeeeee;
+}
+
+.news .show .button {
+    padding-top: 20px;
+}
+
+.news .show .button .view {
+    display: inline-block;
+    margin-left: 450px;
+    text-decoration: none;
+    font-size: 20px;
+    width: 150px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background-color: #fdc800;
+    color: #002146;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.news .show .button .view:hover {
+    color: #fdc800;
+    background-color: #002146;
+}
+
+.news .show .event h1 {
+    font-size: 40px;
+    color: #000000;
+    padding-bottom: 40px;
+}
+
+.news .show .event .date {
+    background-color: #ffffff;
+    padding: 15px 0;
+}
+
+.news .show .event .day {
+    float: left;
+    width: 30%;
+}
+
+.news .show .event .time {
+    float: left;
+    width: 70%;
+}
+
+.news .show .event .date .day {
+    text-align: center;
+}
+
+.news .show .event .date .day .top {
+    background-color: #fdc800;
+    padding: 5px;
+    border-radius: 5px 5px 0 0;
+    color: #002146;
+}
+
+.news .show .event .date .day .top p {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.news .show .event .date .day .top span {
+    font-size: 18px;
+}
+
+.news .show .event .date .bot {
+    background-color: #002146;
+    padding: 5px 10px;
+    border-radius: 0 0 5px 5px;
+    color: #ffffff;
+}
+
+.news .show .event .date .day {
+    padding: 5px 20px;
+    width: 150px;
+}
+
+.news .show .event .date-2 {
+    background-color: #ffffff;
+    margin-top: 30px;
+    padding: 15px 0;
+}
+
+.news .show .event .date-2 .day {
+    text-align: center;
+}
+
+.news .show .event .date-2 .day .top {
+    background-color: #fdc800;
+    padding: 5px;
+    border-radius: 5px 5px 0 0;
+    color: #002146;
+}
+
+.news .show .event .date-2 .day .top p {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.news .show .event .date-2 .day .top span {
+    font-size: 20px;
+}
+
+.news .show .event .date-2 .bot {
+    background-color: #002146;
+    padding: 5px 10px;
+    border-radius: 0 0 5px 5px;
+    color: #ffffff;
+}
+
+.news .show .event .date-2 .day {
+    padding: 5px 20px;
+    width: 150px;
+}
+
+.news .show .event {
+    padding: 0 50px;
+}
+
+.news .show .event .date .time h3 {
+    font-size: 25px;
+    color: #000000;
+    padding-bottom: 10px;
+}
+
+.news .show .event .date .time span {
+    color: #585858;
+    font-size: 18px;
+    line-height: 30px;
+    display: block;
+}
+
+.news .show .event .date .time p {
+    color: #002146;
+    font-size: 18px;
+    padding-top: 10px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.news .show .event .date .time .text-row {
+    width: 0px;
+    height: 18px;
+    border-style: solid;
+    color: #eeeeee;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.news .show .event .date-2 .time h3 {
+    font-size: 25px;
+    color: #000000;
+    padding-bottom: 10px;
+}
+
+.news .show .event .date-2 .time span {
+    color: #585858;
+    font-size: 18px;
+    line-height: 30px;
+    display: block;
+}
+
+.news .show .event .date-2 .time p {
+    color: #002146;
+    font-size: 18px;
+    padding-top: 10px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.news .show .event .date-2 .time .text-row-2 {
+    width: 0px;
+    height: 18px;
+    border-style: solid;
+    color: #eeeeee;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.news .show .event .button-2 {
+    padding-top: 20px;
+}
+
+.news .show .button-2 .view-2 {
+    display: inline-block;
+    margin-left: 510px;
+    text-decoration: none;
+    font-size: 20px;
+    width: 150px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background-color: #fdc800;
+    color: #002146;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.news .show .button-2 .view-2:hover {
+    color: #fdc800;
+    background-color: #002146;
+}
+
+.footer {
+    padding: 80px 0;
+    background-color: #002146;
+    color: #ffffff;
+}
+
+.footer .infofull {
+    margin: auto;
+    width: 80%;
+}
+
+.footer .infofull .contact,
+.footer .infofull .featured,
+.footer .infofull .quick {
+    float: left;
+    width: calc(100% / 3);
+}
+
+.footer .infofull .contact h3 {
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.footer .infofull .contact i {
+    color: #fdc800;
+    margin-right: 20px;
+}
+
+.footer .infofull .contact .phone {
+    padding: 10px 0;
+}
+
+.footer .infofull .contact span {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.footer .featured h3 {
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.footer .featured ul {
+    list-style: none;
+}
+
+.footer .featured li {
+    line-height: 40px;
+}
+
+.footer .featured a {
+    color: #ffffff;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.footer .featured a:hover {
+    color: #ff0000;
+}
+
+.footer .quick h3 {
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.footer .quick ul {
+    list-style: none;
+}
+
+.footer .quick li {
+    line-height: 40px;
+}
+
+.footer .quick a {
+    color: #ffffff;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.footer .quick a:hover {
+    color: #ff0000;
+}
+
+.footer .infofull hr {
+    color: #585858;
+    border-style: solid;
+}
+
+.footer .copyright {
+    margin: auto;
+    width: 80%;
+    padding-top: 30px;
+}
+
+.footer .copyright p {
+    font-size: 18px;
+}
+
+.footer .copyright span {
+    color: #949494;
+}
